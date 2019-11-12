@@ -7,6 +7,7 @@
 class ofPartialShelbyVera : public ofBaseApp {
 
 public:
+    void preDraw();
     void carresNoir();
     void shallWeTakeAWalk();
     void untitled6Y1972();

@@ -1,12 +1,4 @@
-//
-//  ofPartialIainVera.cpp
-//  natalieVeraMolner
-//
-//  Created by iain nash on 11/8/19.
-//
-
 #include "ofPartialIainVera.hpp"
-
 
 void drawLineAtAngle(int elWidth, int x, int y, int angle) {
     ofPushMatrix();

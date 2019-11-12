@@ -1,8 +1,16 @@
 #include "ofPartialShelbyVera.hpp"
 
+void ofPartialShelbyVera::preDraw() {
+    ofBackground(255);
+    ofSetColor(0);
+    
+    ofSeedRandom(mouseX * 1000);
+}
+
 //--------------------------------------------------------------
 // 25 carres noir
 void ofPartialShelbyVera::carresNoir() {
+    preDraw();
     int height = ofGetHeight();
     int width = ofGetWidth();
     
@@ -23,6 +31,7 @@ void ofPartialShelbyVera::carresNoir() {
 }
 
 void ofPartialShelbyVera::grisSurArgent() {
+    preDraw();
     int height = ofGetHeight();
     int width = ofGetWidth();
     
@@ -31,12 +40,12 @@ void ofPartialShelbyVera::grisSurArgent() {
     int sqSize = ((height - margin)/sq);
     int sqStep = sqSize/6;
     
-//    ofBackground(234,226,215);
-//    ofSetColor(228,231,235);
-//    ofPushMatrix();
-//    ofTranslate((width-height)/2, 0);
-//    ofDrawRectangle(0, 0, width-(width-height), height);
-//    ofPopMatrix();
+    //    ofBackground(234,226,215);
+    //    ofSetColor(228,231,235);
+    //    ofPushMatrix();
+    //    ofTranslate((width-height)/2, 0);
+    //    ofDrawRectangle(0, 0, width-(width-height), height);
+    //    ofPopMatrix();
     
     for (int i = 0; i < sq; i++) {
         for (int j = 0; j < sq; j ++) {
@@ -53,6 +62,7 @@ void ofPartialShelbyVera::grisSurArgent() {
 //--------------------------------------------------------------
 // dispersés par le vent au large, 1999
 void ofPartialShelbyVera::dispersesParLeVentAuLarge() {
+    preDraw();
     int height = ofGetHeight();
     int width = ofGetWidth();
     
@@ -79,6 +89,7 @@ void ofPartialShelbyVera::dispersesParLeVentAuLarge() {
 //--------------------------------------------------------------
 // shall we take a walk
 void ofPartialShelbyVera::shallWeTakeAWalk() {
+    preDraw();
     int height = ofGetHeight();
     int width = ofGetWidth();
     int midY = height/2;
@@ -104,6 +115,7 @@ void ofPartialShelbyVera::shallWeTakeAWalk() {
 //--------------------------------------------------------------
 // untitled (6) (1972)
 void ofPartialShelbyVera::untitled6Y1972() {
+    preDraw();
     int height = ofGetHeight();
     int width = ofGetWidth();
     int marginX = width - height;
@@ -136,6 +148,7 @@ void ofPartialShelbyVera::untitled6Y1972() {
 //--------------------------------------------------------------
 // hommage à dürer, disparition
 void ofPartialShelbyVera::hommageADurer() {
+    preDraw();
     int height = ofGetHeight();
     int width = ofGetWidth();
     int marginX = 20 + (width - height)/2;
@@ -181,6 +194,7 @@ void ofPartialShelbyVera::hommageADurer() {
 
 // hommage à dürer, 1990
 void ofPartialShelbyVera::hommageADurer1990() {
+    preDraw();
     int height = ofGetHeight();
     int width = ofGetWidth();
     int sq = (height - 50) /6;
@@ -212,7 +226,7 @@ void ofPartialShelbyVera::hommageADurer1990() {
                 *a = *b;
                 *b = temp;
             }
-
+            
             for (int k = 0; k < n; k ++)
             {
                 int r = arr[k];

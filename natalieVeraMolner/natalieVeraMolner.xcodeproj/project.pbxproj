@@ -13,6 +13,10 @@
 		AE3398B6237536A100E80FA2 /* ofPartialMathildemouwVera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE3398B4237536A100E80FA2 /* ofPartialMathildemouwVera.cpp */; };
 		AE3398B92375375000E80FA2 /* ofPartialShelbyVera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE3398B72375375000E80FA2 /* ofPartialShelbyVera.cpp */; };
 		AE3398BC2375383600E80FA2 /* ofPartialMaxBittkerVera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE3398BA2375383600E80FA2 /* ofPartialMaxBittkerVera.cpp */; };
+		AE90A1A52378E71B001C5572 /* ofPartialKatherine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE90A1A32378E71B001C5572 /* ofPartialKatherine.cpp */; };
+		AE90A1A82378E7C4001C5572 /* ofPartialMaxNC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE90A1A62378E7C4001C5572 /* ofPartialMaxNC.cpp */; };
+		AE90A1AB2378E81E001C5572 /* ofPartialZai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE90A1A92378E81E001C5572 /* ofPartialZai.cpp */; };
+		AE90A1AE2378E8DC001C5572 /* ofPartialYuzhu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE90A1AC2378E8DC001C5572 /* ofPartialYuzhu.cpp */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
 /* End PBXBuildFile section */
@@ -42,6 +46,14 @@
 		AE3398B82375375000E80FA2 /* ofPartialShelbyVera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ofPartialShelbyVera.hpp; sourceTree = "<group>"; };
 		AE3398BA2375383600E80FA2 /* ofPartialMaxBittkerVera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofPartialMaxBittkerVera.cpp; sourceTree = "<group>"; };
 		AE3398BB2375383600E80FA2 /* ofPartialMaxBittkerVera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ofPartialMaxBittkerVera.hpp; sourceTree = "<group>"; };
+		AE90A1A32378E71B001C5572 /* ofPartialKatherine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofPartialKatherine.cpp; sourceTree = "<group>"; };
+		AE90A1A42378E71B001C5572 /* ofPartialKatherine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ofPartialKatherine.hpp; sourceTree = "<group>"; };
+		AE90A1A62378E7C4001C5572 /* ofPartialMaxNC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofPartialMaxNC.cpp; sourceTree = "<group>"; };
+		AE90A1A72378E7C4001C5572 /* ofPartialMaxNC.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ofPartialMaxNC.hpp; sourceTree = "<group>"; };
+		AE90A1A92378E81E001C5572 /* ofPartialZai.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofPartialZai.cpp; sourceTree = "<group>"; };
+		AE90A1AA2378E81E001C5572 /* ofPartialZai.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ofPartialZai.hpp; sourceTree = "<group>"; };
+		AE90A1AC2378E8DC001C5572 /* ofPartialYuzhu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofPartialYuzhu.cpp; sourceTree = "<group>"; };
+		AE90A1AD2378E8DC001C5572 /* ofPartialYuzhu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ofPartialYuzhu.hpp; sourceTree = "<group>"; };
 		E42962AC2163EDD300A6A9E2 /* ofCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ofCamera.cpp; path = ../../../libs/openFrameworks/3d/ofCamera.cpp; sourceTree = SOURCE_ROOT; };
 		E42962AD2163EDD300A6A9E2 /* ofMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofMesh.h; path = ../../../libs/openFrameworks/3d/ofMesh.h; sourceTree = SOURCE_ROOT; };
 		E42962AE2163EDD300A6A9E2 /* ofNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofNode.h; path = ../../../libs/openFrameworks/3d/ofNode.h; sourceTree = SOURCE_ROOT; };
@@ -563,6 +575,14 @@
 				AE3398B82375375000E80FA2 /* ofPartialShelbyVera.hpp */,
 				AE3398BA2375383600E80FA2 /* ofPartialMaxBittkerVera.cpp */,
 				AE3398BB2375383600E80FA2 /* ofPartialMaxBittkerVera.hpp */,
+				AE90A1A32378E71B001C5572 /* ofPartialKatherine.cpp */,
+				AE90A1A42378E71B001C5572 /* ofPartialKatherine.hpp */,
+				AE90A1A62378E7C4001C5572 /* ofPartialMaxNC.cpp */,
+				AE90A1A72378E7C4001C5572 /* ofPartialMaxNC.hpp */,
+				AE90A1A92378E81E001C5572 /* ofPartialZai.cpp */,
+				AE90A1AA2378E81E001C5572 /* ofPartialZai.hpp */,
+				AE90A1AC2378E8DC001C5572 /* ofPartialYuzhu.cpp */,
+				AE90A1AD2378E8DC001C5572 /* ofPartialYuzhu.hpp */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -667,11 +687,15 @@
 			files = (
 				AE3398B6237536A100E80FA2 /* ofPartialMathildemouwVera.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				AE90A1A82378E7C4001C5572 /* ofPartialMaxNC.cpp in Sources */,
+				AE90A1AB2378E81E001C5572 /* ofPartialZai.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				AE3398B92375375000E80FA2 /* ofPartialShelbyVera.cpp in Sources */,
+				AE90A1A52378E71B001C5572 /* ofPartialKatherine.cpp in Sources */,
 				AE3398A7237532AD00E80FA2 /* ofPartialNatalieVera.cpp in Sources */,
 				AE3398B32375356F00E80FA2 /* ofPartialIainVera.cpp in Sources */,
 				AE3398B02375343C00E80FA2 /* ofPartialFrojoVera.cpp in Sources */,
+				AE90A1AE2378E8DC001C5572 /* ofPartialYuzhu.cpp in Sources */,
 				AE3398BC2375383600E80FA2 /* ofPartialMaxBittkerVera.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
